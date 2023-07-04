@@ -1,3 +1,2 @@
 # Alfa Bank
-
-https://abdulawalanupam.github.io/alfabank/
+This project is my learning project.
