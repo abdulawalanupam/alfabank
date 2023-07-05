@@ -13,12 +13,12 @@
 <body>
     <!-- ========== Start Login area ========== -->
     <div id="login-area">
-        <h1 class="text-center">Welcome to Alfa Bank</h1>
+        <h1 class="text-center h1Title">Welcome to <span id="bankName">Alfa Bank</span></h1>
         <div class="submit-area">
             <h4>Login</h4>
-            <input class="form-control" type="text" placeholder="Email">
+            <input class="form-control" type="email" placeholder="Email">
             <br>
-            <input class="form-control" type="password" name="" id="" placeholder="Password">
+            <input class="form-control" type="password" placeholder="Password">
             <br>
             <button id="login" class="btn btn-success">Login</button>
         </div>
@@ -27,7 +27,7 @@
 
     <!-- ========== Start Transaction area ========== -->
     <div id="transaction-area">
-        <h1 class="text-center mb-5">Transaction Area</h1>
+        <h1 class="text-center mb-5 trArea">Transaction Area</h1>
         <div class="row">
             <div class="col-md-4">
                 <div class="deposit status">
@@ -53,7 +53,7 @@
             <div class="col-md-6">
                 <div class="submit-area">
                     <h4>Deposit</h4>
-                    <input id="depositAmount" type="text" class="form-control"
+                    <input id="depositAmount" type="number" class="form-control"
                         placeholder="$ amount you want to deposit"> <br>
                     <button id="addDeposit" class="btn btn-success">Deposit</button>
                 </div>
@@ -61,7 +61,7 @@
             <div class="col-md-6">
                 <div class="submit-area">
                     <h4>Withdraw</h4>
-                    <input id="withdrawAmount" type="text" class="form-control"
+                    <input id="withdrawAmount" type="number" class="form-control"
                         placeholder="$ amount you want to withdraw"> <br>
                     <button id="addWithdraw" class="btn btn-success">Withdraw</button>
                 </div>
